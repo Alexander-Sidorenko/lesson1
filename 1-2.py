@@ -1,0 +1,5 @@
+number = int(input('Введите количество секунд: '))
+hour = (number // 60 // 60)
+minute = ((number // 60) % 60)
+second = (number % 60)
+print(f'чч/мм/сс {hour}:{minute}:{second}')
